@@ -137,8 +137,30 @@
 	      <a class="btn-floating btn-small btn-large add-btn sidenav-trigger" data-target="side-form">
 		      <i class="material-icons">add</i>		
 	      </a>
-      </div>
+      </div>    
 
+      <div id="side-form" class="sidenav side-form">
+    <form class="adiciona-produto container section">
+        <h6>Novo Produto</h6>
+        <div class="divider"></div>
+        <div class="input-field">
+            <input placeholder="ex. Produtos ou Acessórios" id="prodTitulo" type="text" class="validate">
+            <label for="prodTitulo">Título do Produto</label>
+        </div>
+        <div class="input-field">
+            <input placeholder="Peça de roupa ou acessório de uso pessoal." id="prodDescricao" type="text" class="validate">
+            <label for="prodDescricao">Descrição do Produto</label>
+        </div>
+        <div class="input-field">
+            <input placeholder="Coloque aqui um link que fale sobre o produto" id="prodLink" type="text" class="validate">
+            <label for="prodLink">Link do Produto</label>
+        </div>
+        <div class="input-field center">
+            <button class="btn-small">Adicionar</button>
+        </div>
+    </form>
+</div>
+	    
       <ul class="pagination">
     <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
     <li class="grey darken-4"><a href="#!" style="color: white">1</a></li>
