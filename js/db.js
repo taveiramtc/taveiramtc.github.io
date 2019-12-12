@@ -16,4 +16,3 @@ db.collection('produtos').onSnapshot(snapshot => {
         }
     });
 });
-.
